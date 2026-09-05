@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My SMM Panel</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>MY SMM PANEL</h1>
+    <p>Social Media Services</p>
+  </header>
+
+  <main>
+
+    <div class="card">
+
+      <h2>New Order</h2>
+
+      <label>Select Service</label>
+
+      <select id="serviceSelect">
+        <option value="">Loading services...</option>
+      </select>
+
+      <label>Link</label>
+
+      <input
+        type="text"
+        id="link"
+        placeholder="Enter profile or post link"
+      >
+
+      <label>Quantity</label>
+
+      <input
+        type="number"
+        id="quantity"
+        placeholder="Enter quantity"
+      >
+
+      <button id="orderButton">
+        Place Order
+      </button>
+
+      <p id="message"></p>
+
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
